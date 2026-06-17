@@ -1,0 +1,19 @@
+{
+  "name": "warframe-market-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the Warframe Market API v2",
+  "type": "module",
+  "bin": {
+    "warframe-market-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "files": [
+    "index.js",
+    "src/"
+  ]
+}
